@@ -9,4 +9,4 @@ function calculatetotal() {
     const totalvalue = billvalue * (1 / tipvalue / 100)
     totalspan.innerText = totalvalue.toFixed(2)
 }
-calculatebtn.addEventListener('click', calculatetotal)
+calculatebtn.addEventListener('click', calculatetotal) 
